@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <script src="JS/script.js" defer></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <img class="logo" src="images/logo.svg" alt="">
+      <img class="icon menu" src="images/icon-menu.svg" alt="">
+
+
+      <div class="sidenav">
+      <div class="right-col">
+        
+          <ul class="menu-1">
+            <li id="menu-list-1" class="menu-list">Features <img id="dropArrow-1" src="images/icon-arrow-down.svg" alt="">
+              <ul  id="sub-menu-1" class="sub-menu-1">
+                <li><img src="images/icon-todo.svg" alt="">To-do List</li>
+                <li><img src="images/icon-calendar.svg" alt="">Calender</li>
+                <li><img src="images/icon-reminders.svg" alt="">Reminders</li>
+                <li><img src="images/icon-planning.svg" alt="">Planning</li>
+              </ul>
+            </li>
+            <li id="menu-list-2" class="menu-list">Company <img id="dropArrow-2" src="images/icon-arrow-down.svg" alt="">
+              <ul id="sub-menu-2" class="sub-menu-2">
+                <li>History</li>
+                <li>Our Team </li>
+                <li> Blogs</li>
+              </ul>
+            </li>
+            <li class="menu-list">Careers</li>
+            <li class="menu-list">About</li>
+          </ul>
+
+      </div>
+        <ul class="left-col">
+          <li>Login</li>
+          <li class="btn">Register</li>
+        </ul>
+      
+        <img class="icon close" src="images/icon-close-menu.svg" alt="">
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="body-section">
+      <div class="left-div">
+        <h1> Make <span> remote work</span></h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </p>
+        <div>
+          <div class="btn">Learn more</div>
+        </div>
+
+        <div class="stickers">
+          <img src="images/client-databiz.svg" alt="">
+          <img src="images/client-audiophile.svg" alt="">
+          <img src="images//client-meet.svg" alt="">
+          <img src="images/client-maker.svg" alt="">
+        </div>
+      </div>
+      <div class="right-div">
+          <img class="right-image" src="images/image-hero-desktop.png" alt="">
+          <img class="mobile-image" src="images/image-hero-mobile.png" alt="">
+      </div>
+    </section>
+  </main>
+
+ 
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Isaac Tubonibo Iyaye-Williams</a>.
+  </div>
+</body>
+</html>
